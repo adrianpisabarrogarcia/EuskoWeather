@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016F39A72891FAB1007DE8D6 /* EuskalWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39A62891FAB1007DE8D6 /* EuskalWeatherApp.swift */; };
+		016F39A92891FAB1007DE8D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39A82891FAB1007DE8D6 /* ContentView.swift */; };
+		016F39AB2891FAB3007DE8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016F39AA2891FAB3007DE8D6 /* Assets.xcassets */; };
+		016F39AE2891FAB3007DE8D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016F39AD2891FAB3007DE8D6 /* Preview Assets.xcassets */; };
+		016F39B82891FAB4007DE8D6 /* EuskalWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39B72891FAB4007DE8D6 /* EuskalWeatherTests.swift */; };
+		016F39C22891FAB4007DE8D6 /* EuskalWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39C12891FAB4007DE8D6 /* EuskalWeatherUITests.swift */; };
+		016F39C42891FAB4007DE8D6 /* EuskalWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39C32891FAB4007DE8D6 /* EuskalWeatherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		016F39B42891FAB4007DE8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016F399B2891FAB1007DE8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016F39A22891FAB1007DE8D6;
+			remoteInfo = EuskalWeather;
+		};
+		016F39BE2891FAB4007DE8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016F399B2891FAB1007DE8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016F39A22891FAB1007DE8D6;
+			remoteInfo = EuskalWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016F39A32891FAB1007DE8D6 /* EuskalWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuskalWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016F39A62891FAB1007DE8D6 /* EuskalWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuskalWeatherApp.swift; sourceTree = "<group>"; };
+		016F39A82891FAB1007DE8D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		016F39AA2891FAB3007DE8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016F39AD2891FAB3007DE8D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		016F39B32891FAB4007DE8D6 /* EuskalWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuskalWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		016F39B72891FAB4007DE8D6 /* EuskalWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuskalWeatherTests.swift; sourceTree = "<group>"; };
+		016F39BD2891FAB4007DE8D6 /* EuskalWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuskalWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		016F39C12891FAB4007DE8D6 /* EuskalWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuskalWeatherUITests.swift; sourceTree = "<group>"; };
+		016F39C32891FAB4007DE8D6 /* EuskalWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuskalWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016F39A02891FAB1007DE8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016F39B02891FAB4007DE8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016F39BA2891FAB4007DE8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016F399A2891FAB1007DE8D6 = {
+			isa = PBXGroup;
+			children = (
+				016F39A52891FAB1007DE8D6 /* EuskalWeather */,
+				016F39B62891FAB4007DE8D6 /* EuskalWeatherTests */,
+				016F39C02891FAB4007DE8D6 /* EuskalWeatherUITests */,
+				016F39A42891FAB1007DE8D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016F39A42891FAB1007DE8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016F39A32891FAB1007DE8D6 /* EuskalWeather.app */,
+				016F39B32891FAB4007DE8D6 /* EuskalWeatherTests.xctest */,
+				016F39BD2891FAB4007DE8D6 /* EuskalWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016F39A52891FAB1007DE8D6 /* EuskalWeather */ = {
+			isa = PBXGroup;
+			children = (
+				016F39A62891FAB1007DE8D6 /* EuskalWeatherApp.swift */,
+				016F39A82891FAB1007DE8D6 /* ContentView.swift */,
+				016F39AA2891FAB3007DE8D6 /* Assets.xcassets */,
+				016F39AC2891FAB3007DE8D6 /* Preview Content */,
+			);
+			path = EuskalWeather;
+			sourceTree = "<group>";
+		};
+		016F39AC2891FAB3007DE8D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				016F39AD2891FAB3007DE8D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		016F39B62891FAB4007DE8D6 /* EuskalWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				016F39B72891FAB4007DE8D6 /* EuskalWeatherTests.swift */,
+			);
+			path = EuskalWeatherTests;
+			sourceTree = "<group>";
+		};
+		016F39C02891FAB4007DE8D6 /* EuskalWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				016F39C12891FAB4007DE8D6 /* EuskalWeatherUITests.swift */,
+				016F39C32891FAB4007DE8D6 /* EuskalWeatherUITestsLaunchTests.swift */,
+			);
+			path = EuskalWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016F39A22891FAB1007DE8D6 /* EuskalWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016F39C72891FAB4007DE8D6 /* Build configuration list for PBXNativeTarget "EuskalWeather" */;
+			buildPhases = (
+				016F399F2891FAB1007DE8D6 /* Sources */,
+				016F39A02891FAB1007DE8D6 /* Frameworks */,
+				016F39A12891FAB1007DE8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EuskalWeather;
+			productName = EuskalWeather;
+			productReference = 016F39A32891FAB1007DE8D6 /* EuskalWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		016F39B22891FAB4007DE8D6 /* EuskalWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016F39CA2891FAB4007DE8D6 /* Build configuration list for PBXNativeTarget "EuskalWeatherTests" */;
+			buildPhases = (
+				016F39AF2891FAB4007DE8D6 /* Sources */,
+				016F39B02891FAB4007DE8D6 /* Frameworks */,
+				016F39B12891FAB4007DE8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016F39B52891FAB4007DE8D6 /* PBXTargetDependency */,
+			);
+			name = EuskalWeatherTests;
+			productName = EuskalWeatherTests;
+			productReference = 016F39B32891FAB4007DE8D6 /* EuskalWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		016F39BC2891FAB4007DE8D6 /* EuskalWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016F39CD2891FAB4007DE8D6 /* Build configuration list for PBXNativeTarget "EuskalWeatherUITests" */;
+			buildPhases = (
+				016F39B92891FAB4007DE8D6 /* Sources */,
+				016F39BA2891FAB4007DE8D6 /* Frameworks */,
+				016F39BB2891FAB4007DE8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016F39BF2891FAB4007DE8D6 /* PBXTargetDependency */,
+			);
+			name = EuskalWeatherUITests;
+			productName = EuskalWeatherUITests;
+			productReference = 016F39BD2891FAB4007DE8D6 /* EuskalWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016F399B2891FAB1007DE8D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					016F39A22891FAB1007DE8D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					016F39B22891FAB4007DE8D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 016F39A22891FAB1007DE8D6;
+					};
+					016F39BC2891FAB4007DE8D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 016F39A22891FAB1007DE8D6;
+					};
+				};
+			};
+			buildConfigurationList = 016F399E2891FAB1007DE8D6 /* Build configuration list for PBXProject "EuskalWeather" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016F399A2891FAB1007DE8D6;
+			productRefGroup = 016F39A42891FAB1007DE8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016F39A22891FAB1007DE8D6 /* EuskalWeather */,
+				016F39B22891FAB4007DE8D6 /* EuskalWeatherTests */,
+				016F39BC2891FAB4007DE8D6 /* EuskalWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016F39A12891FAB1007DE8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016F39AE2891FAB3007DE8D6 /* Preview Assets.xcassets in Resources */,
+				016F39AB2891FAB3007DE8D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016F39B12891FAB4007DE8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016F39BB2891FAB4007DE8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016F399F2891FAB1007DE8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016F39A92891FAB1007DE8D6 /* ContentView.swift in Sources */,
+				016F39A72891FAB1007DE8D6 /* EuskalWeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016F39AF2891FAB4007DE8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016F39B82891FAB4007DE8D6 /* EuskalWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016F39B92891FAB4007DE8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016F39C42891FAB4007DE8D6 /* EuskalWeatherUITestsLaunchTests.swift in Sources */,
+				016F39C22891FAB4007DE8D6 /* EuskalWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016F39B52891FAB4007DE8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016F39A22891FAB1007DE8D6 /* EuskalWeather */;
+			targetProxy = 016F39B42891FAB4007DE8D6 /* PBXContainerItemProxy */;
+		};
+		016F39BF2891FAB4007DE8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016F39A22891FAB1007DE8D6 /* EuskalWeather */;
+			targetProxy = 016F39BE2891FAB4007DE8D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016F39C52891FAB4007DE8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		016F39C62891FAB4007DE8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016F39C82891FAB4007DE8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EuskalWeather/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.EuskalWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		016F39C92891FAB4007DE8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EuskalWeather/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.EuskalWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		016F39CB2891FAB4007DE8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.EuskalWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuskalWeather.app/EuskalWeather";
+			};
+			name = Debug;
+		};
+		016F39CC2891FAB4007DE8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.EuskalWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuskalWeather.app/EuskalWeather";
+			};
+			name = Release;
+		};
+		016F39CE2891FAB4007DE8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.EuskalWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EuskalWeather;
+			};
+			name = Debug;
+		};
+		016F39CF2891FAB4007DE8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NL9K7QC66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriantxupisi.EuskalWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EuskalWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016F399E2891FAB1007DE8D6 /* Build configuration list for PBXProject "EuskalWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016F39C52891FAB4007DE8D6 /* Debug */,
+				016F39C62891FAB4007DE8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016F39C72891FAB4007DE8D6 /* Build configuration list for PBXNativeTarget "EuskalWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016F39C82891FAB4007DE8D6 /* Debug */,
+				016F39C92891FAB4007DE8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016F39CA2891FAB4007DE8D6 /* Build configuration list for PBXNativeTarget "EuskalWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016F39CB2891FAB4007DE8D6 /* Debug */,
+				016F39CC2891FAB4007DE8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016F39CD2891FAB4007DE8D6 /* Build configuration list for PBXNativeTarget "EuskalWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016F39CE2891FAB4007DE8D6 /* Debug */,
+				016F39CF2891FAB4007DE8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016F399B2891FAB1007DE8D6 /* Project object */;
+}
