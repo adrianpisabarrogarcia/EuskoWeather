@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01280A122892033300401610 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 01280A112892033300401610 /* Alamofire */; };
+		01280A152892034000401610 /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = 01280A142892034000401610 /* SWXMLHash */; };
 		016F39A72891FAB1007DE8D6 /* EuskalWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39A62891FAB1007DE8D6 /* EuskalWeatherApp.swift */; };
 		016F39A92891FAB1007DE8D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39A82891FAB1007DE8D6 /* ContentView.swift */; };
 		016F39AB2891FAB3007DE8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016F39AA2891FAB3007DE8D6 /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01280A152892034000401610 /* SWXMLHash in Frameworks */,
+				01280A122892033300401610 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,10 @@
 			dependencies = (
 			);
 			name = EuskalWeather;
+			packageProductDependencies = (
+				01280A112892033300401610 /* Alamofire */,
+				01280A142892034000401610 /* SWXMLHash */,
+			);
 			productName = EuskalWeather;
 			productReference = 016F39A32891FAB1007DE8D6 /* EuskalWeather.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,10 @@
 				Base,
 			);
 			mainGroup = 016F399A2891FAB1007DE8D6;
+			packageReferences = (
+				01280A102892033300401610 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				01280A132892034000401610 /* XCRemoteSwiftPackageReference "SWXMLHash" */,
+			);
 			productRefGroup = 016F39A42891FAB1007DE8D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +595,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01280A102892033300401610 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		01280A132892034000401610 /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/drmohundro/SWXMLHash";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01280A112892033300401610 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01280A102892033300401610 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		01280A142892034000401610 /* SWXMLHash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01280A132892034000401610 /* XCRemoteSwiftPackageReference "SWXMLHash" */;
+			productName = SWXMLHash;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 016F399B2891FAB1007DE8D6 /* Project object */;
 }
