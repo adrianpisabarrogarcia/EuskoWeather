@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var data: String = "Hola mundo!!"
+
 
     var body: some View {
 
@@ -26,7 +29,7 @@ struct ContentView: View {
                     .frame(
                         minWidth: 0,
                         maxWidth: .infinity,
-                        minHeight: 130, alignment: .bottomLeading
+                        minHeight: 110, alignment: .bottomLeading
                     )
                     .foregroundColor(Color(red: 255/255, green: 22/255, blue: 84/255))
                     .background(Color(red: 178/255, green: 219/255, blue: 191/255))
@@ -40,20 +43,24 @@ struct ContentView: View {
             ScrollView{
                 Section {
                     ForEach(1..<10) {_ in
-                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                        .frame(
-                            minWidth: 0,
-                            maxWidth: .infinity,
-                            minHeight: 100, alignment: .leading
-                        )
-                        .padding()
-                        .foregroundColor(Color(red: 36/255, green: 123/255, blue: 160/255))
+                        RoundedRectangle(cornerRadius: /*@PLACEHOLDER=Corner Radius@*/10.0)
+                            .frame(
+                                minWidth: 0,
+                                maxWidth: .infinity,
+                                minHeight: 100, alignment: .leading
+                            )
+                            .padding()
+                            .foregroundColor(Color(red: 36/255, green: 123/255, blue: 160/255))
+                            .overlay(
+                                Text(data).foregroundColor(Color.white)
+                            )
                     }
                 }
                 .padding()
-                .frame(height: .infinity)
                 .background(Color(red: 243/255, green: 255/255, blue: 189/255))
             }
+            .frame(height: .infinity)
+            .background(Color(red: 243/255, green: 255/255, blue: 189/255))
         }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
             .edgesIgnoringSafeArea(.all)
 
@@ -67,4 +74,18 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+
+func getXML() -> String{
+    return "holii"
+}
+
+func getData(){
+    var xml = ""
+    xml = getXML()
+    
+    print(xml)
+    
+    
 }
